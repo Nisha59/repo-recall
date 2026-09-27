@@ -1,0 +1,12 @@
+# Keep secrets, data and local tooling out of the image (the app reads .env
+# at runtime through docker-compose's env_file instead).
+.env
+.venv/
+data/
+.git/
+tests/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+.idea/

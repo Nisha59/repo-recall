@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Data (keep folder structure, ignore contents)
+data/*
+!data/**/.gitkeep
+
+# IDE
+.vscode/
+.idea/
